@@ -1,0 +1,16 @@
+.env
+__pycache__/
+*.py[cod]
+*.tsbuildinfo
+.pytest_cache/
+node_modules/
+dist/
+*.log
+outputs/*
+!outputs/.gitkeep
+temporary/
+tmp/
+
+# Keep the supplied checkpoint visible locally; large model files may be
+# managed separately if this project is later pushed to GitHub.
+!models/paper_style_best.pt
